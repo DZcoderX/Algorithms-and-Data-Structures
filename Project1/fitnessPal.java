@@ -10,10 +10,10 @@ import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class r255zhanProjPart2 {
+public class fitnessPal {
 	public static void main(String[] args) throws IOException{
 		Food list = new Food(12);
-			
+		//Below inputs are test codes!	
 		list.add("Cheese", 1000);
 		list.add("grain u", 54);
 		list.add("cash", 34);
@@ -32,7 +32,6 @@ public class r255zhanProjPart2 {
 
 		//The Food class will sort the entire list
 		list.sort();
-		//User will now be asked to specify the number of n top slots that they want the list to display
 		
 		ArrayList<String> sortedTopList = new ArrayList<String>();
 		sortedTopList = list.fileToProgram();

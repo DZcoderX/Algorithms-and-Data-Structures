@@ -1,12 +1,6 @@
 package Project_2;
 
-/**
- * This class will likely be useful for you when attempting the ArrayList
- * solution. Feel free to add constructors or other helper methods, if you like.
- *
- * @author Mark Hancock
- *
- */
+
 public class ValueFrequency {
 	//private int userID;
 	private String valueType;

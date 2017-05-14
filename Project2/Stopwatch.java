@@ -1,17 +1,5 @@
 package Project_2;
-/**
- * This Stopwatch class is a based on Tutorial 2, from Week 3 of class.
- *
- * The solution is based off of code written in C# by Mark Smucker for MSCI 240,
- * Fall 2014.
- *
- * See this link for more details, if you are curious about System.nanoTime():
- * https://docs.oracle.com/javase/8/docs/api/java/lang/System.html#nanoTime--
- * {@link java.lang.System#nanoTime}
- *
- * @author Mark Hancock
- * 
- */
+
 class Stopwatch {
     private long startTime;
     private long stopTime;
